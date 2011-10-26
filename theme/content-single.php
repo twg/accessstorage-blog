@@ -25,7 +25,7 @@
         </div>
         <div class="box_content">
           <div class='single_column'>
-            <h2 class="page-header"><?php the_title(); ?></h3>
+            <h2 class="page-header"><?php the_title(); ?></h2>
           	<div class="entry-content">
           		<?php the_content(); ?>
           		<?php wp_link_pages( array( 'before' => '<div class="page-link">' . __( 'Pages:', 'toolbox' ), 'after' => '</div>' ) ); ?>

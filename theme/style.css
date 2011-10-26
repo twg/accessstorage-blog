@@ -1,5 +1,5 @@
 /*
-Theme Name: Acessstorage
+Theme Name: Acessstorage Theme
 Theme URI: --
 Author: The Working Group
 Author URI: http://blog.acessstorage.ca/
@@ -140,19 +140,23 @@ a:hover {
           text-decoration: none; }
   #container #content_container {
     background: url(images/content.png) repeat-y 26px top;
-    _background: url(images/ie6/content.gif) repeat-y 26px top; }
+    _background: url(images/ie6/content.gif) repeat-y 26px top;
+    overflow: hidden; }
     #container #content_container #content_corner {
       background: url(images/content_corner.png) repeat-y left;
       _background: url(images/ie6/content_corner.gif) repeat-y left;
+      overflow: hidden;
       _height: 1%; }
   #container #content_footer, #container #content_footer_corner {
     height: 25px; }
   #container #content_footer {
     background: url(images/content_footer.png) no-repeat 26px top;
-    _background: url(images/ie6/content_footer.gif) no-repeat 26px top; }
+    _background: url(images/ie6/content_footer.gif) no-repeat 26px top; 
+    overflow: hidden; }
     #container #content_footer #content_footer_corner {
       background: url(images/content_footer_corner.png) no-repeat left;
-      _background: url(images/ie6/content_footer_corner.gif) no-repeat left; }
+      _background: url(images/ie6/content_footer_corner.gif) no-repeat left; 
+      overflow: hidden; }
   #container #sidebar {
     float: left;
     width: 300px;
