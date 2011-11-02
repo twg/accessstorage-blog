@@ -685,6 +685,8 @@ h3.author span {
 
 .entry-content {
   margin-top: 10px; }
+  .entry-content form {
+    margin: 0 10px; }
 
 .box_header .entry-meta {
   margin: 0px; }
@@ -1034,7 +1036,7 @@ p.comment-form-comment {
 
 
 
-form#searchform label.screen-reader-text {
+form#searchform label.assistive-text {
   display: none; }
 #searchform  { }
   #searchform input[type="text"] {
