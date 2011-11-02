@@ -1038,9 +1038,8 @@ p.comment-form-comment {
 
 form#searchform label.assistive-text {
   display: none; }
-#searchform  { }
-  #searchform input[type="text"] {
-    margin-right: 10px; }
+#searchform input[type="text"] {
+  margin-right: 10px; }
 
 /* =Widgets
 -------------------------------------------------------------- */
