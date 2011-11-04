@@ -1078,4 +1078,17 @@ form#searchform label.assistive-text {
     font-style: normal; }
 
 
+/* =SOCIAL MEDIA
+-------------------------------------------------------------- */
 
+.social {
+  margin: 10px 0;
+  overflow: hidden;
+  }
+  .social p {
+    text-align: center;
+    }
+  .social .addthis_default_style a.at300b, .addthis_default_style a.at300m {
+    margin-right: 11px; 
+    }
+    
