@@ -29,6 +29,20 @@
 
 	?></title>
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+<script src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4eb1a07f1285e203" type="text/javascript"></script>
+<script type='text/javascript'>
+  //<![CDATA[
+    var addthis_config = {
+      username: "accessstorage",
+      ui_cobrand: "Access Storage",
+      ui_header_color: "#ffffff",
+      ui_header_background: "#8BC502",
+      data_track_linkback: "true",
+      data_ga_tracker: "pageTracker",
+      data_ga_social : true
+    }
+  //]]>
+</script>
 <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <!--[if lt IE 9]>
