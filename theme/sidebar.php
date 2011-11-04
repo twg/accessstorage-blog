@@ -7,7 +7,18 @@
 
     <div id="sidebar">
       <h1 id="logo"><a href="http://accessstorage.ca/">Access Storage - your commercial storage or residential storage needs for Toronto</a></h1>
-    
+	
+			<div class="social">
+        <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+          <a class="addthis_button_twitter" href=""></a>
+          <a class="addthis_button_facebook" href=""></a>
+          <a class="addthis_button_email" href=""></a>
+          <a class="addthis_button_google" href=""></a>
+          <a class="addthis_button_compact" href=""></a>
+          <a class="addthis_counter addthis_bubble_style" href=""></a>
+				</div>
+      </div>
+
       <div id="secondary" class="widget-area" role="complementary">
   			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
           
