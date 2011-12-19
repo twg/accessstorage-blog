@@ -7,7 +7,7 @@
 
 <ul id="navigation">
   <li class="">
-    <a href="/">home</a>
+    <a href="http://accessstorage.ca/">home</a>
   </li>
   <li class="">
     <a href="http://accessstorage.ca/locations">locations &amp; specials</a>
