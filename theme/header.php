@@ -56,12 +56,6 @@
 <div id="container">
   <div id="content_header">
     <div id="content_header_corner"></div>
-    <div id="live_chat">
-      <script type="text/javascript" src="http://server2gateway.clickandchat.com/include.js?domain=www.accessstorage.ca">          </script>
-      <script type="text/javascript">
-        if(typeof sWOTrackPage=='function')sWOTrackPage();
-      </script>
-    </div>
   </div>
   <div id="content_container">
     <div id="content_corner">

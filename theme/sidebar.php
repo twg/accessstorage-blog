@@ -45,9 +45,27 @@
             </div>
           </div>
 
+					<div class="content_box ">
+	          <div class="content_box_header">
+	            <div class="content_box_header_corner"></div>
+	          </div>
+	          <div class="content_box_content">
+							<div id="live_chat">
+					      <script type="text/javascript" src="http://server2gateway.clickandchat.com/include.js?domain=www.accessstorage.ca">          </script>
+					      <script type="text/javascript">
+					        if(typeof sWOTrackPage=='function')sWOTrackPage();
+					      </script>
+					    </div>
+						</div>
+		        <div class="content_box_footer">
+		          <div class="content_box_footer_corner"></div>
+		        </div>
+		      </div>
+		
   			<?php endif; // end sidebar widget area ?>
   		</div><!-- #secondary .widget-area -->
-          
+      
+
       
   		<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
   		<div id="tertiary" class="widget-area" role="complementary">
